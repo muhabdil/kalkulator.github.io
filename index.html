@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkulator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1 class="h1">Kalkulator</h1>
-        </header>
+    <h1 class="title">Kalkulator</h1>
+    <form class="calculator" name="calc">
         <input class="value" type="text" name="txt" readonly>
         <span class="num clear" onclick="document.calc.txt.value = ''">C</span>
         <span class="num" onclick="document.calc.txt.value += '/'">/</span>
@@ -29,6 +26,6 @@
         <span class="num" onclick="document.calc.txt.value += '0'">0</span>
         <span class="num" onclick="document.calc.txt.value += '.'">.</span>
         <span class="num equal" onclick="document.calc.txt.value = eval(document.calc.txt.value)">=</span>
-    </div>
+    </form>
 </body>
 </html>
