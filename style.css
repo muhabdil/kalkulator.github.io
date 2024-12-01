@@ -7,11 +7,14 @@
 header {
     text-align: top;
     font-family: Arial, Helvetica, sans-serif;
+}
+.h1 {
     font-size: 36px;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
 body {
     display: flex;
