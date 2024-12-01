@@ -4,24 +4,13 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
-header {
-    text-align: top;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.h1 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
 
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #c801fa;
+    background: #07c8eb;
 }
 
 .calculator {
